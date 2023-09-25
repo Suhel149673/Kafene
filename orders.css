@@ -1,0 +1,55 @@
+.Box-outer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    margin-top: 100px;
+}
+.Box-inner-section{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+.Filter-Section{
+    width: 180px
+}
+.Filter{
+    display: flex;
+    flex-direction: column;
+}
+.Checkbox-for-filter{
+    margin: 6px 0;
+    cursor: pointer;
+}
+.Checkbox-for-filter input{
+    margin-right: 12px;
+}
+.Filter p{
+    margin:24px 0px ;
+}
+.orderPage-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.orderPage-table tr{
+    vertical-align: middle;
+}
+.orderPage-table th{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.orderPage-table td{
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.text-secondary{
+    color: #8c8c8c
+}
+.text-primary{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
